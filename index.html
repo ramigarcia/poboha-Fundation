@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Fundacion - policia - ayuda - poboha">
+  <meta name="description" content="">
+  <meta name="robots" content="index, follow">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <link rel=" icon" href="/src/images/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/home.css">
+  <link rel="stylesheet" href="/src/css/load.css">
+  <title>Inicio | Fundación Poboha</title>
+</head>
+<body>
+  <div class="navegation" id="navBar">
+    <a href="/" id="l-home">
+      <img src="/src/images/logo.png" class="logo" alt="Poboha">
+    </a>
+    <div class="hamburger">
+      <img src="/src/images/bx-menu.svg" alt="bx-menu" id="hamb">
+    </div>
+    <div class="hamburger-x">
+      <img src="/src/images/bx-x.svg" alt="bx-x" id="X" class="x">
+    </div>
+    <nav class="menu">
+      <ul class="list-menu__primary" id="listItem">
+        <li class="menu-item item"><a href="/">Inicio</a></li>
+        <li class="menu-item item"><a href="#about">Sobre</a></li>
+        <li class="menu-item item"><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="in-activeOverlay" id="overlayBody"></div>
+    <nav class="menuMobile" id="menu">
+      <ul class="list-item__secondary">
+        <li class="menu-item__mobile"><a href="/">Inicio</a></li>
+        <li class="menu-item__mobile"><a href="#about">Sobre</a></li>
+        <li class="menu-item__mobile"><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <header id="home">
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="hero-content__title">Fundación Poboha</h1>
+        <p class="hero-content__text">Fundación de bien público <br>destinada al servicio de la familia policial.</p>
+      </div>
+    </div>
+  </header>
+  <div class="loader-page">
+    <h2>Poboha</h2>
+  </div>
+  <section class="wrapper">
+    <div class="container">
+      <div class="about" id="about">
+        <article class="top-about">
+          <!-- Titulo -->
+          <div class="title-about__content">
+            <h2 class="about-title">¿Que es Poboha?</h2>
+            <div class="line"></div>
+          </div>
+          <!-- Imgen y Descripcion -->
+          <div class="content-about__imgDesc">
+            <!-- Descripcion -->
+            <div class="description-about__content">
+              <p class="description-about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta a non doloremque dolorum voluptatibus? Neque, suscipit non. Aperiam dolore possimus dolor, nisi, itaque consequatur suscipit maiores unde eveniet, nihil maxime labore obcaecati tempora corporis accusantium cum eius ducimus? Libero nisi cum quis expedita dolor at ipsam error facilis soluta maxime?
+              </p>
+            </div>
+            <!-- Imagen -->
+            <div class="img-about">
+              <img src="/src/images/hero.jpg" alt="">
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="contact-wrapper" id="contact">
+        <article class="contact">
+          <div class="title-contact__content">
+            <h2 class="title-contact">Contactanos</h2>
+            <div class="line"></div>
+          </div>
+          <div class="formulario-contact__text">
+            <div class="formulario-contact__textLeft">
+              <p class="formulario-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, error. Architecto ad maiores saepe perspiciatis iusto distinctio, odit possimus quod unde ducimus praesentium nihil exercitationem reiciendis a. Atque deleniti necessitatibus expedita ea consequuntur possimus inventore, animi libero asperiores quia, saepe quisquam blanditiis ratione sint veritatis?
+              </p>
+            </div>
+            <div class="form">
+              <form action="/private/php/sendMeail.php">
+                <label for="name">
+                  <span>Nombre</span>
+                  <input type="text" name="name" id="name" placeholder="Ingresa tu nombre completo" required>
+                </label>
+                <label for="email">
+                  <span>Correo electronico</span>
+                  <input type="email" name="email" id="email" placeholder="Ingresa tu e-mail" required>
+                </label>
+                <label for="message">
+                  <span>Mensaje</span>
+                  <input type="text" name="message" id="message" placeholder="Tu mensaje" required>
+                </label>
+                <button id="sendMsg" class="buttonSend">Enviar  </button>
+              </form>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <script src="/src/js/nav-scroll.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/src/js/menu.js"></script>
+  <script src="/private/js/validation.js"></script>
+  <script src="/src/js/load.js"></script>
+</body>
+</html>
