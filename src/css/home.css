@@ -168,7 +168,7 @@ header .hero{
   height: 100%;
   background-blend-mode: darken;
   background: #ffffff;
-  background-image: url('/src/images/hero.jpg');
+  background-image: url('../images/hero.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
