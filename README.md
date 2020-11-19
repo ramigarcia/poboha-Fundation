@@ -2,11 +2,12 @@
 
 # Fundación de bien público destinada al servicio de la familia policial.
 
-# Lenguajes uilizados:
+# Lenguajes uilizados hasta el momento:
 
 • HTML
-• JS
-• CSS
-• PHP (proximamente para enviar el email)
 
-## Falta hacer que el formulario de contacto envie el mensaje a un email
+• JS
+
+• CSS
+
+(proximamente voy a usar PHP para enviar el mensaje en forma de email)
