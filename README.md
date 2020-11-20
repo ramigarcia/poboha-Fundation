@@ -1,4 +1,13 @@
-# Poboha
+# Poboha https://ramigarcia.github.io/poboha-Fundation/
 
-Fundación de bien público
-destinada al servicio de la familia policial.
+# Fundación de bien público destinada al servicio de la familia policial.
+
+# Lenguajes uilizados hasta el momento:
+
+• HTML
+
+• JS
+
+• CSS
+
+(proximamente voy a usar PHP para enviar el mensaje en forma de email, tambien tengo que hacer la validacion con javaScript)
