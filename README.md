@@ -10,4 +10,4 @@
 
 • CSS
 
-(proximamente voy a usar PHP para enviar el mensaje en forma de email)
+(proximamente voy a usar PHP para enviar el mensaje en forma de email, tambien tengo que hacer la validacion con javaScript)
