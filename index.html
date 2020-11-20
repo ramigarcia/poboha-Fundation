@@ -89,20 +89,21 @@
               </p>
             </div>
             <div class="form">
-              <form action="./private/php/sendMeail.php">
+              <form action="/private/php/sendMeail.php" method="POST" id="form">
                 <label for="name">
                   <span>Nombre</span>
-                  <input type="text" name="name" id="name" placeholder="Ingresa tu nombre completo" required>
+                  <input type="text" name="name" id="nameUser" placeholder="Ingresa tu nombre completo">
                 </label>
                 <label for="email">
                   <span>Correo electronico</span>
-                  <input type="email" name="email" id="email" placeholder="Ingresa tu e-mail" required>
+                  <input type="email" name="email" id="email" placeholder="Ingresa tu e-mail">
                 </label>
                 <label for="message">
                   <span>Mensaje</span>
-                  <input type="text" name="message" id="message" placeholder="Tu mensaje" required>
+                  <textarea name="message" id="message" placeholder="Tu mensaje"></textarea>
                 </label>
-                <button id="sendMsg" class="buttonSend">Enviar  </button>
+                <button type="submit" id="sendMsg" class="buttonSend">Enviar</button>
+                <p class="warnings" id="warnings"></p>
               </form>
             </div>
           </div>

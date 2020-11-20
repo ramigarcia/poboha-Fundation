@@ -363,7 +363,21 @@ header .hero .hero-content .hero-content__text{
   font-size: 15px;
 }
 
+.wrapper .container .contact-wrapper .contact .formulario-contact__text .form form label textarea{
+  width: 100%;
+  height: 35px;
+  padding: 8px 10px 0 15px;
+  outline: none;
+  border: 1px solid rgba(139, 139, 139, .7);
+  font-size: 15px;
+}
+
 .wrapper .container .contact-wrapper .contact .formulario-contact__text .form form label input:focus{
+  border: 1px solid #005499;
+  box-shadow: 0 2px 6px rgba(0, 84, 153, .4);
+  transition: .4s ease-in-out;
+}
+.wrapper .container .contact-wrapper .contact .formulario-contact__text .form form label textarea:focus{
   border: 1px solid #005499;
   box-shadow: 0 2px 6px rgba(0, 84, 153, .4);
   transition: .4s ease-in-out;
